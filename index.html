@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ekskulku — Blog Ekstrakurikuler Sekolah</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9fafb;
+      color: #1f2937;
+    }
+    header {
+      background: linear-gradient(90deg, #2563eb, #7c3aed);
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background: #1e293b;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+    .post {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 25px;
+    }
+    .post img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .post h2 {
+      color: #2563eb;
+      margin-top: 10px;
+    }
+    .post p {
+      line-height: 1.6;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e293b;
+      color: #cbd5e1;
+      margin-top: 40px;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.6em; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ekskulku Blog</h1>
+    <p>Berbagi kisah dan pengalaman seru dari kegiatan ekstrakurikuler sekolah!</p>
+  </header>
+
+  <nav>
+    <a href="#beranda">Beranda</a>
+    <a href="#artikel">Artikel</a>
+    <a href="#tentang">Tentang</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <main class="container">
+    <article class="post">
+      <img src="https://images.unsplash.com/photo-1581092917196-ff1c32a2ef6e?auto=format&fit=crop&w=800&q=80" alt="Ekskul robotik">
+      <h2>Ekskul Robotik: Belajar Teknologi Sejak Dini</h2>
+      <p>Ekskul robotik menjadi salah satu kegiatan favorit di sekolah kami. Setiap minggu, para anggota berkumpul untuk belajar membuat robot sederhana menggunakan Arduino dan sensor-sensor dasar. Kami juga sering mengikuti lomba antar sekolah dan berhasil meraih beberapa penghargaan!</p>
+    </article>
+
+    <article class="post">
+      <img src="https://images.unsplash.com/photo-1522199710521-72d69614c702?auto=format&fit=crop&w=800&q=80" alt="Ekskul jurnalistik">
+      <h2>Ekskul Jurnalistik: Suara Sekolah, Suara Kita</h2>
+      <p>Ekskul jurnalistik memberi kesempatan bagi siswa untuk mengasah kemampuan menulis dan berpikir kritis. Kami menulis artikel, wawancara guru dan siswa, hingga membuat buletin sekolah setiap bulan.</p>
+    </article>
+
+    <article class="post">
+      <img src="https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=800&q=80" alt="Ekskul musik">
+      <h2>Ekskul Musik: Nada yang Menyatukan</h2>
+      <p>Ekskul musik adalah tempat kami mengekspresikan diri lewat nada. Dari band hingga paduan suara, semua berkolaborasi menyiapkan penampilan terbaik untuk acara sekolah. Musik membuat kami lebih kompak dan percaya diri.</p>
+    </article>
+  </main>
+
+  <footer>
+    &copy; <span id="year"></span> Ekskulku Blog — Dibuat oleh vcngv dengan ❤️
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
