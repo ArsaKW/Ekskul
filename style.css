@@ -1,0 +1,29 @@
+.divs{
+margin: 30px auto;
+width: 80%;
+text-align: center;
+padding: 20px 0;
+border-radius: 75px;
+background-image: url('./image.png');
+background-size: 100%;
+background-repeat: no-repeat;
+color: aliceblue;
+font-size: 30px;
+}
+body{
+    background-color: aliceblue;
+}
+.div2{
+width: 80%;
+font-size: 30px;
+background-color: darkgray;
+border-radius: 20px;
+margin: 0 auto;
+padding: 5px 10px;
+
+}
+.i{
+width: 80%;
+
+
+}
